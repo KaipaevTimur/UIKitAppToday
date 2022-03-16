@@ -32,6 +32,8 @@ class ReminderViewController: UICollectionViewController {
             return collectionView.dequeueConfiguredReusableCell(using: cellRegistration, for: indexPath, item: itemIdentifier)
         }
         
+        navigationItem.title = NSLocalizedString("Напоминание", comment: "Название контроллера представления напоминания")
+        
         updateSnapshot()
         
     }
