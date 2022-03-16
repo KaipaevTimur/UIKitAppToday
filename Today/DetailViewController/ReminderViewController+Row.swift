@@ -1,0 +1,39 @@
+//
+//  ReminderViewController+Row.swift
+//  Today
+//
+//  Created by Admin on 16.03.2022.
+//
+
+import UIKit
+
+extension ReminderViewController {
+    enum Row: Hashable {
+        case viewDate
+        case viewNotes
+        case viewTime
+        case viewTitle
+        
+        var imageName: String? {
+            switch self {
+            case .viewDate: return "calendar.cicrle"
+            case .viewNotes: return "square.and.pincil"
+            case .viewTime: return "clock"
+            default: return nil
+            }
+        }
+        
+        var image: UIImage? {
+            guard let imageName = imageName else { return nil }
+            let configuration = UIImage.SymbolConfiguration(textStyle: .headline)
+            return UIImage(systemName: imageName, withConfiguration: configuration)
+        }
+        
+        var textStyle: UIFont.TextStyle {
+            switch self {
+            case .viewTitle: return .headline
+            default: return .subheadline
+            }
+        }
+    }
+}
