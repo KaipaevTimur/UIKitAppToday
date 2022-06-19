@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84200EB9285FA00A008A102C /* NewFileTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84200EB8285FA00A008A102C /* NewFileTest.swift */; };
 		844D35E027E1B9350005E4DB /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D35DF27E1B9350005E4DB /* ReminderViewController.swift */; };
 		844D35E327E1BCC10005E4DB /* ReminderViewController+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D35E227E1BCC10005E4DB /* ReminderViewController+Row.swift */; };
 		8456B0EA27DF1207008CE470 /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456B0E927DF1207008CE470 /* ReminderListViewController+DataSource.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84200EB8285FA00A008A102C /* NewFileTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFileTest.swift; sourceTree = "<group>"; };
 		844D35DF27E1B9350005E4DB /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
 		844D35E227E1BCC10005E4DB /* ReminderViewController+Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Row.swift"; sourceTree = "<group>"; };
 		8456B0E927DF1207008CE470 /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				844D35DF27E1B9350005E4DB /* ReminderViewController.swift */,
+				84200EB8285FA00A008A102C /* NewFileTest.swift */,
 				844D35E227E1BCC10005E4DB /* ReminderViewController+Row.swift */,
 			);
 			path = DetailViewController;
@@ -188,6 +191,7 @@
 			files = (
 				8456B0EC27DF17A5008CE470 /* UIColor+Today.swift in Sources */,
 				84F09AA827DE2A4C00FA579B /* ReminderListViewController.swift in Sources */,
+				84200EB9285FA00A008A102C /* NewFileTest.swift in Sources */,
 				84F09ABB27DE865900FA579B /* Date+Today.swift in Sources */,
 				847AF3D527E12A0C00763591 /* ReminderDoneButton.swift in Sources */,
 				847AF3D727E12B7E00763591 /* ReminderController+Action.swift in Sources */,
