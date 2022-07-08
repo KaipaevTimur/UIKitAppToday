@@ -13,6 +13,7 @@ struct Reminder: Identifiable {
     var dueDate: Date
     var notes: String? = nil
     var isComplete: Bool = false
+    
 }
 
 extension Array where Element == Reminder {
