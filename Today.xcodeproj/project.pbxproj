@@ -72,8 +72,8 @@
 			children = (
 				8427D1B92875775100EE2256 /* UIView+PinnedSubview.swift */,
 				8427D1BB28757D9F00EE2256 /* TextFieldContentView.swift */,
-				84C05CBC2878C5E000A4E715 /* TextViewContentView.swift */,
 				84C05CBE2878C75900A4E715 /* DatePickerContentView.swift */,
+				84C05CBC2878C5E000A4E715 /* TextViewContentView.swift */,
 				8427D1BD287580AF00EE2256 /* UIContentConfiguration+Stateless.swift */,
 			);
 			path = ContentViews;
